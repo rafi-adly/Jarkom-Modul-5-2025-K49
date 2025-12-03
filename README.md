@@ -75,7 +75,7 @@ Total **12 koneksi /30**:
 
 ## VLSM TREE
 
-(ss)
+<img width="786" height="554" alt="image" src="https://github.com/user-attachments/assets/7abdd00e-8ff7-4055-ac55-47d1ce540451" />
 
 A1: 10.88.0.0/24
 A2: 10.88.2.0/25
