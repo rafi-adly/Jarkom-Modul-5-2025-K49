@@ -148,3 +148,11 @@ Router links: 10.88.2.208, dst
 | **TOTAL**      | **18** | **432 IP** |
 
 Tersisa >65 ribu IP untuk ekspansi.
+
+---
+
+## Misi 2: Security Rules
+
+### 2.1
+
+<img width="1041" height="1011" alt="image" src="https://github.com/user-attachments/assets/904e539e-260c-40ed-bc71-0d887c438ff1" />
