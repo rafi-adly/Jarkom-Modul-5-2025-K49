@@ -78,10 +78,15 @@ Total **12 koneksi /30**:
 <img width="1408" height="999" alt="Untitled-2025-11-18-1127" src="https://github.com/user-attachments/assets/a74c51a5-e016-42d4-8206-da9ff2dbf262" />
 
 A1: 10.88.0.0/24
+
 A2: 10.88.2.0/25
+
 A3: 10.88.2.128/26
+
 A4: 10.88.2.192/29
+
 A5: 10.88.2.200/29
+
 Router links: 10.88.2.208, dst
 
 ---
