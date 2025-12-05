@@ -178,12 +178,38 @@ Tersisa >65 ribu IP untuk ekspansi.
 
 ## Web Server (IronHills dan Palantir)
 
+<img width="991" height="552" alt="image" src="https://github.com/user-attachments/assets/269e494e-5e41-4281-af47-d1595d3ad09a" />
 
+<img width="982" height="572" alt="image" src="https://github.com/user-attachments/assets/d736ddc1-bd06-4af0-a0ff-a47e9bf836e3" />
 
 ---
 
 ## Misi 2: Security Rules
 
-### 2.1
+### Misi 2.1
 
 <img width="1041" height="1011" alt="image" src="https://github.com/user-attachments/assets/904e539e-260c-40ed-bc71-0d887c438ff1" />
+
+### Misi 2.2
+
+<img width="1075" height="267" alt="image" src="https://github.com/user-attachments/assets/b3c05d09-e78b-481d-a4e6-17f0e74efd6a" />
+
+<img width="846" height="136" alt="image" src="https://github.com/user-attachments/assets/e6b18d18-7652-4bbe-841e-2cd349c040b7" />
+
+### Misi 2.3
+
+<img width="1180" height="420" alt="image" src="https://github.com/user-attachments/assets/448a4613-9ed6-4b8a-abae-69d4a7f8ebda" />
+
+
+### Misi 2.4
+
+### Misi 2.5
+
+### Misi 2.6
+
+### Misi 2.7
+
+### Misi 2.8
+
+
+
