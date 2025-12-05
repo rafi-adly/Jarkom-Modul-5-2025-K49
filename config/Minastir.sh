@@ -13,3 +13,7 @@ auto eth2
 iface eth2 inet static
     address 10.88.2.241   
     netmask 255.255.255.252
+
+up route add -net 10.88.2.0/25 gw 10.88.2.242   
+up route add -net 10.88.2.244/30 gw 10.88.2.242   
+up route add -net 10.88.2.248/30 gw 10.88.2.242 
