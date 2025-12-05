@@ -29,4 +29,4 @@ up ip route add 10.88.2.128/26 via 10.88.2.210
 up ip route add 10.88.2.192/29 via 10.88.2.210
 up ip route add 10.88.2.220/30 via 10.88.2.210
 up ip route add 10.88.2.224/30 via 10.88.2.210
-up ip route add 10.88.2.200/29 via 10.88.2.213
+up ip route add 10.88.2.200/29 via 10.88.2.214
