@@ -18,4 +18,4 @@ iface eth2 inet static
     netmask 255.255.255.252
 
 # Routing
-up route add -net 0.0.0.0/0 gw 10.88.2.209
+up ip route add 10.88.2.192/29 via 10.88.2.222
