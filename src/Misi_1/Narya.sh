@@ -17,6 +17,7 @@ options {
 EOF
 
 service bind9 restart
+named -c /etc/bind/named.conf -f &
 echo "DNS Server ready!"
 
 # Testing: nslookup google.com
