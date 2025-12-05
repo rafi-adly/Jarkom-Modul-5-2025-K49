@@ -160,7 +160,7 @@ Tersisa >65 ribu IP untuk ekspansi.
 
 ### Narya
 
-<img width="808" height="591" alt="image" src="https://github.com/user-attachments/assets/f2114e73-fbfe-48eb-b160-9a6e36717c7b" />
+<img width="745" height="1207" alt="image" src="https://github.com/user-attachments/assets/d70b3285-f8c2-4e0f-8ff3-38a085eaf260" />
 
 ## Vilya
 
