@@ -156,6 +156,32 @@ Tersisa >65 ribu IP untuk ekspansi.
 
 ---
 
+## Misi 1.4
+
+### Narya
+
+<img width="808" height="591" alt="image" src="https://github.com/user-attachments/assets/f2114e73-fbfe-48eb-b160-9a6e36717c7b" />
+
+## Vilya
+
+<img width="753" height="319" alt="image" src="https://github.com/user-attachments/assets/c17e6d2c-9c6a-4d04-93cb-76a5b6c7f2c1" />
+
+## DHCP Relay (Rivendell, Wilderland, Minastir, dan AnduinBanks)
+
+<img width="990" height="571" alt="image" src="https://github.com/user-attachments/assets/d91c7592-9a95-429a-adcf-c4b0d3cbadfd" />
+
+<img width="992" height="577" alt="image" src="https://github.com/user-attachments/assets/7f429e5e-7e0c-4759-a6e4-d7c683f33253" />
+
+<img width="990" height="572" alt="image" src="https://github.com/user-attachments/assets/3c2c28e8-b950-4f53-9179-ef048e167878" />
+
+<img width="982" height="574" alt="image" src="https://github.com/user-attachments/assets/0dd0e3a6-06c1-44d1-a0ab-2d433f81216a" />
+
+## Web Server (IronHills dan Palantir)
+
+
+
+---
+
 ## Misi 2: Security Rules
 
 ### 2.1
