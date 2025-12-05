@@ -1,14 +1,10 @@
-
 auto eth0
 iface eth0 inet static
-    address 10.88.2.253
+    address 10.88.2.250 
     netmask 255.255.255.252
+    gateway 10.88.2.249
 
 auto eth1
 iface eth1 inet static
-    address 10.88.2.250
-    netmask 255.255.255.252
-
-# Routing
-up route add -net 0.0.0.0/0 gw 10.88.2.249
-up route add -net 10.88.2.0/25 gw 10.88.2.254
+    address 10.88.2.1    
+    netmask 255.255.255.128
