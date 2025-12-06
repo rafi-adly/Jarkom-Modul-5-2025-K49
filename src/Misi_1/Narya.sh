@@ -8,8 +8,7 @@ cat > /etc/bind/named.conf.options << 'EOF'
 options {
     directory "/var/cache/bind";
     forwarders {
-        8..8.8.8;
-        1.1.1.1;
+        192.168.122.1
     };
     allow-query { any; };
     auth-nxdomain no;
