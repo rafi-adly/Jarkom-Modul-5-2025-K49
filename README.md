@@ -200,8 +200,13 @@ Tersisa >65 ribu IP untuk ekspansi.
 
 <img width="1180" height="420" alt="image" src="https://github.com/user-attachments/assets/448a4613-9ed6-4b8a-abae-69d4a7f8ebda" />
 
+<img width="904" height="58" alt="image" src="https://github.com/user-attachments/assets/62c6f57b-d6c8-467f-8215-f0649ed40cd7" />
 
 ### Misi 2.4
+
+<img width="769" height="74" alt="image" src="https://github.com/user-attachments/assets/be511828-87ca-4dff-a133-596ac9492102" />
+
+<img width="1088" height="102" alt="image" src="https://github.com/user-attachments/assets/7595fe5d-6363-44b8-99ff-963e32c63e7d" />
 
 ### Misi 2.5
 
