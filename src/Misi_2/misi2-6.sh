@@ -1,30 +1,35 @@
 #!/bin/bash
 
-echo "[+] Installing rsyslog for iptables logging..."
+echo "[+] Installing ulogd2 for NFLOG logging..."
 apt-get update
-apt-get install -y rsyslog
+apt-get install -y ulogd2
 
-# Enable kernel logging to dmesg + /var/log/kern.log
-echo "[+] Configuring rsyslog..."
-cat > /etc/rsyslog.d/10-iptables.conf << 'EOF'
-kern.*    /var/log/kern.log
-kern.*    /dev/kmsg
-EOF
+echo "[+] Starting ulogd2..."
+ulogd -d &
 
-service rsyslog restart
+echo "[+] Flushing old rules..."
+iptables -F
+iptables -X PORTSCAN 2>/dev/null
+iptables -N PORTSCAN
 
-echo "[+] Setting up iptables port-scan detection..."
+echo "[+] Applying port-scan rules..."
 
-# Firewall rules (punya kamu)
-iptables -N PORTSCAN 2>/dev/null || iptables -F PORTSCAN
+# Accept established + localhost
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A INPUT -i lo -j ACCEPT
 
-iptables -A INPUT -p tcp --dport 1:100 -m state --state NEW -m recent --set --name portscan
-iptables -A INPUT -p tcp --dport 1:100 -m state --state NEW -m recent --update --seconds 20 --hitcount 15 --name portscan -j PORTSCAN
+# Track new hits
+iptables -A INPUT -p tcp --dport 1:100 -m recent --set --name portscan
+iptables -A INPUT -p tcp --dport 1:100 -m recent --update --seconds 20 --hitcount 15 --name portscan -j PORTSCAN
 
-iptables -A PORTSCAN -j LOG --log-prefix "PORT_SCAN_DETECTED: " --log-level 4
-iptables -A PORTSCAN -j REJECT
+# Log via NFLOG -> ulogd2
+iptables -A PORTSCAN -j NFLOG --nflog-prefix "PORT_SCAN_DETECTED: "
 
-iptables -A INPUT -m recent --name portscan --rcheck -j REJECT
+# Drop attacker
+iptables -A PORTSCAN -j DROP
 
-echo "Port scan detection active!"
-echo "Check logs using: dmesg | grep PORT_SCAN or cat /var/log/kern.log | grep PORT_SCAN"
+# Persistent block
+iptables -A INPUT -m recent --rcheck --name portscan -j DROP
+
+echo "[+] Port scan detection is ACTIVE."
+echo "[+] Check logs: tail -f /var/log/ulog/syslogemu.log | grep PORT_SCAN"
