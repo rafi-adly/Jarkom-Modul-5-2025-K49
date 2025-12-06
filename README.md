@@ -224,10 +224,36 @@ Elendil
 
 ### Misi 2.6
 
+Palantir
+
+<img width="1919" height="727" alt="image" src="https://github.com/user-attachments/assets/9892295b-9683-4b6f-bc83-750053bb4ef2" />
+
+Elendil
+
+<img width="996" height="446" alt="image" src="https://github.com/user-attachments/assets/92860408-2ce6-49c1-ba8d-651c570d6f1e" />
+
 ### Misi 2.7
 
+IronHills
+
+<img width="973" height="117" alt="image" src="https://github.com/user-attachments/assets/12441f37-3f36-45c2-80d1-985caed8bf42" />
+
+Elendil
+
+<img width="1155" height="774" alt="image" src="https://github.com/user-attachments/assets/6b4f9dda-b352-4292-b264-8f106e9dbd76" />
+
 ### Misi 2.8
+
+<img width="760" height="96" alt="image" src="https://github.com/user-attachments/assets/45e9f59a-d338-4e89-a875-163a6c75e8b7" />
 
 ---
 
 ## Misi 3: Isolasi Khamul
+
+Khamul
+
+<img width="927" height="305" alt="image" src="https://github.com/user-attachments/assets/010dd916-efd2-48ec-8675-8c16c118545d" />
+
+Durin
+
+<img width="1067" height="402" alt="image" src="https://github.com/user-attachments/assets/472985ee-9da7-422b-9cf6-ab45399877b2" />
