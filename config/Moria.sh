@@ -19,3 +19,4 @@ iface eth2 inet static
 
 # Routing
 up ip route add 10.88.2.192/29 via 10.88.2.222
+up ip route add 10.88.2.128/26 via 10.88.2.222
