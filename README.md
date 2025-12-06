@@ -210,11 +210,24 @@ Tersisa >65 ribu IP untuk ekspansi.
 
 ### Misi 2.5
 
+Palantir
+
+<img width="862" height="118" alt="image" src="https://github.com/user-attachments/assets/b8b85738-4f35-4b7d-8db3-065db6f3694b" />
+
+Gilgalad
+
+<img width="867" height="45" alt="image" src="https://github.com/user-attachments/assets/40e3bff2-e395-464e-8175-e68e14b634ea" />
+
+Elendil
+
+<img width="971" height="52" alt="image" src="https://github.com/user-attachments/assets/4877b265-3e2a-4720-b04e-5a55f31ba083" />
+
 ### Misi 2.6
 
 ### Misi 2.7
 
 ### Misi 2.8
 
+---
 
-
+## Misi 3: Isolasi Khamul
